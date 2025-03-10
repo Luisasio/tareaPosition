@@ -89,7 +89,8 @@ header{
   justify-content: center;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap
+  flex-wrap: wrap;
+  margin-bottom: 40px;
 }
 .contenedor-informacion article{
   padding: 20px;
