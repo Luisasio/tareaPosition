@@ -1,0 +1,41 @@
+@media (max-width:1045px){
+  .contenedor-menu{
+    display: none;
+  }
+  .bnt-get{
+    display: none;
+  }
+  .icono-menu{
+    display: block;
+    font-size: 29px;
+
+  }
+}
+@media(max-width:1000px){
+  .contenedor-icono{
+    width: 60px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: -30px;
+  }
+  article h2{
+    text-align: center;
+  }
+  footer{
+    display: block;
+  }
+}
+@media(max-width:360px){
+  .logo-cabecera{
+    width:  200px;
+  }
+  .logo-cabecera img{
+    width: 100%;
+  }
+  .contenedor-icono{
+    width: 60px;
+    position: absolute;
+    right: calc(50% - 25px);
+    bottom: -30px;
+  }
+}
